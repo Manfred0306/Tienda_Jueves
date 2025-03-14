@@ -10,7 +10,7 @@ import lombok.Data;
 public class Categoria implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
-    @GenerativeValue(Strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="id_categoria")
     private Long idCategoria;
     
